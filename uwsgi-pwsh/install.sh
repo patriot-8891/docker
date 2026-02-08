@@ -8,5 +8,5 @@ EOF
 
 apk update
 apk upgrade
-apk add coreutils-env libldap powershell uwsgi-cgi uwsgi-ugreen
+apk add coreutils-env openldap-clients libldap powershell uwsgi-cgi uwsgi-ugreen
 ln -s /usr/lib/libldap.so.2 /usr/local/lib/libldap-2.5.so.0.so
